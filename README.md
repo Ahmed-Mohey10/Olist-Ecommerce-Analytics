@@ -29,10 +29,9 @@ The analysis was performed using SQL Server for data analysis and Power BI for i
 
 ## Dashboard
 
-The Power BI dashboard consists of three analytical pages:
+The Power BI dashboard covers three main analytical areas:
 
-### 1. Sales Performance
-Focuses on:
+### Sales Performance
 - Total Sales
 - Total Orders
 - Total Items
@@ -44,9 +43,7 @@ Focuses on:
 - Payment Methods
 - Top Sellers
 
-### 2. Customer & Product Analytics
-Focuses on:
-- Customer Distribution
+### Customer & Product Analytics
 - Customers by State
 - Customers by City
 - Repeat Customers
@@ -54,8 +51,7 @@ Focuses on:
 - Product Categories
 - Product Sales Performance
 
-### 3. Seller & Payment Performance
-Focuses on:
+### Seller & Payment Performance
 - Seller Performance
 - Seller Sales Contribution
 - Items Sold by Seller
@@ -64,20 +60,36 @@ Focuses on:
 - Payment Transactions
 - Installment Analysis
 
+## Dashboard Preview
+
+### Dashboard 1
+
+![Dashboard 1](Dashboard%201.png)
+
+### Dashboard 2
+
+![Dashboard 2](Dashboard%202.png)
+
 ## SQL Analysis
 
 SQL Server was used to:
+
 - Explore and analyze the dataset
 - Join multiple tables
 - Calculate business KPIs
 - Analyze customers, products, sellers, sales, and payments
 - Create SQL Views for Power BI
 
+The complete SQL analysis is available in:
+
+`sql/Olist_Ecommerce_Analytics.sql`
+
 ## Dataset
 
 The project uses the Olist Brazilian E-commerce dataset.
 
-The original dataset contains information about:
+The dataset contains information about:
+
 - Customers
 - Orders
 - Order Items
@@ -92,6 +104,7 @@ The original dataset contains information about:
 ## Key Insights
 
 The analysis provides insights into:
+
 - Overall sales performance
 - Customer distribution and behavior
 - Product category performance
@@ -99,12 +112,15 @@ The analysis provides insights into:
 - Payment method usage
 - Geographic sales distribution
 
-## Project Structure
+## Project Files
 
-```text
-Olist-Ecommerce-Analytics/
-│
-├── images/
-├── sql/
-├── powerbi/
-└── README.md
+- `Olist_Ecommerce_Analytics.pbix` — Power BI dashboard
+- `sql/Olist_Ecommerce_Analytics.sql` — SQL analysis
+- `Dashboard 1.png` — Dashboard preview
+- `Dashboard 2.png` — Dashboard preview
+
+## Author
+
+**Ahmed Mohey**
+
+Aspiring Data Analyst | SQL | Excel | Power BI | Python | Tableau
